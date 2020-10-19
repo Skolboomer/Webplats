@@ -1,0 +1,90 @@
+/*Bakgrundsfärg*/
+body {
+    background-color: grey;
+  }
+  /*Titel färg*/
+  h1 {
+    color: darkred;
+    width: 175px;
+    margin: auto;
+    border: 2px solid black;
+  }
+  p {
+    color: lightcyan;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* unvisited link */
+a:link {
+    color: blue;
+  }
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  /*mus över länk*/
+  a:hover {
+    color: lightseagreen;
+  }
+  /*Vald länk*/
+  a:active {
+    color: red;
+  }
+  .nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  .ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 55px;
+    background-color:  darkgrey;
+  }
+ /* Style the content */
+.article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  img:hover {
+    opacity: 0.5;
+  }
+  .aside {
+    position: absolute;
+    left: 650px;
+    top: 350px;
+    z-index: -1;
+  }
+  .list {
+    position: static;
+  }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+      text-align: center;
+  }
+  td {
+    color:lightgray
+  }
+  th {
+    color: white
+  }
